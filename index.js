@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require("path");
+require("dotenv").config();
+const port = process.env.PORT || 332;
 
 const musicas = [
     {
@@ -73,6 +75,4 @@ app.post('/atualizado/:id', (req,res) => {
     res.redirect('/');
 });
 
-app.listen(332, () => {
-    console.log("http://localhost:332")
-});
+app.listen(port, () => console.log(`rodando em http://localhost:${port}`));
