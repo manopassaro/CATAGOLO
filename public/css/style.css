@@ -105,7 +105,7 @@ img{
 
 
 
-    /* PAGINA DO FORMULARIO  */
+    /* PAGINA DO FORMULARIO E DE EDIÇÃO*/
 
 
 #home{
@@ -144,7 +144,7 @@ input{
     border-radius: 6px;
 }
 
-#adicionar{
+#adicionar, #editar{
     margin-top: 15px;
     padding: 0.4rem 1.2rem;
     background-color: rgb(185, 221, 250);
@@ -154,7 +154,7 @@ input{
     cursor: pointer;
 }
 
-#adicionar:hover{
+#adicionar:hover, #editar:hover{
     background-color: rgb(224, 224, 224);
     font-weight: bold;
     border: none
