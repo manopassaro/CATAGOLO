@@ -6,6 +6,8 @@
     font-family: 'Oswald', sans-serif;
 }
 
+
+
 header{
     background-color: rgb(29, 29, 29);
     padding-top: 1rem;
@@ -18,13 +20,9 @@ header{
     cursor: default; 
 }
 
-.tete{
-    background-color: blue;
-}
 
 
-
-.body{
+body{
     background-color: rgb(58, 58, 58);
 }
 
@@ -215,6 +213,7 @@ input{
 .linhaModal{
     background-color: #505050;
     margin: 2px;
+    border-radius: 3px;
 }
 
 #x{
